@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/*
+it activates dark moodnnpm
+
+*/
+@custom-variant dark (&:where(.dark, .dark *));
+html {
+  scroll-behavior: smooth;
+}
+section {
+  /* This should match the height of your header (20 = 5rem = 80px) */
+  scroll-margin-top: 5rem;
+}
